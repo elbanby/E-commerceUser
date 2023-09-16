@@ -1,0 +1,145 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  .count{
+    width: 187px !important;
+  }
+}
+@media (max-width: 768px){
+  .count{
+    width: 187px !important;
+  }
+  .delete{
+    width: 187px !important;
+    margin-top: 10px;
+  }
+  .delete-two{
+    display: none;
+  }
+}
+@media (max-width: 576px){
+  .shoppingCart{
+    display: none;
+  }
+  .shopping-cart-in-mobile{
+    display: block;
+  }
+}
+
+
+
+.shoppingCart{
+  border: 1px solid #eee;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  h2{
+    color: #4169E1	;
+  }
+  .itemcountAndClear{
+    display: flex;
+    justify-content: space-between;
+    p{
+      font-size: 18px;
+      span{
+        color: #0000FF;
+        font-weight: 500;
+      }
+    }
+    button{
+      color: #2d58db;
+      background-color:#e9e5f5 ;
+      font-weight: 500;
+      border: none;
+      border-radius: 3px;
+      padding: 10px;
+    }
+  }
+  table{
+    margin-top: 10px;
+    text-align: center;
+	  vertical-align: middle;
+    width: 100%;
+    thead{
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #333;
+      tr{
+
+        td{
+
+        }
+      }
+    }
+    tbody{
+      height:100px ;
+      width: 100%;
+
+
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      tr{
+        border-bottom: 1px solid #c9c9c9;
+       td{
+        img{
+          height: 50px;
+          width: 50px;
+        }
+        button{
+          margin:0 5px;
+          background-color:rgb(245, 204, 128);
+          border-radius: 3px;
+          font-size: 20px;
+          border: none;
+          height: 30px;
+          width: 30px;
+        }
+        .delete{
+          width: 80px;
+          height: 40px;
+        }
+        input{
+          border: none;
+          text-align: center;
+          height: 30px;
+          margin: 0 5px;
+
+        }:focus{
+          border: none;
+          outline: none;
+        }
+       }
+      }
+    }
+  }
+  .totalAndOrderNow{
+    margin-top: 20px;
+    p{
+      margin-right: 40px;
+      font-weight: 500;
+    }
+    button{
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: 500;
+      background-color: #4169E1;
+    }
+  }
+}
+.done{
+  padding: 10px;
+  background-color: #7FFFD4;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: 0.6s;
+  p{
+    span{
+      font-weight: 500;
+      font-size: 600;
+      margin-left: 20px;
+    }
+  }
+}
+
+

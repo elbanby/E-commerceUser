@@ -1,0 +1,19 @@
+nav{
+  background: linear-gradient(to right,  #1E90FF, #0000FF);
+  color: #fff;;
+  .content{
+    padding: 10px 0px;
+    h2{
+      cursor: pointer;
+    }
+    ul{
+      li{
+        margin-left: 50px;
+        list-style: none;
+        cursor: pointer;
+        font-size: 22px;
+        color: #fff;
+      }
+    }
+  }
+}

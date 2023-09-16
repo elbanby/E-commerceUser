@@ -1,0 +1,26 @@
+<div class="box">
+  <div class="row" *ngIf="!loading">
+    <div class=" col-sm-12 col-lg-6">
+      <img src="{{prodId.image}}" alt="sas">
+    </div>
+    <div class=" col-sm-12 col-lg-6">
+      <div class="info">
+        <ul class="list-unstyled">
+          <li><strong>title : </strong>{{prodId.title}}</li>
+          <li><strong>Category :</strong>{{prodId.category}}</li>
+          <li><strong>Description :</strong>{{prodId.description}}</li>
+          <li><strong>Rate :</strong>{{prodId.rate}}</li>
+          <li><strong>Count :</strong>{{prodId.rating.rate}}</li>
+          <li><strong>Price :</strong>{{prodId.rating.count}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="btns mt-5 text-center">
+      <button [disabled]="id ==0" class="btn btn-primary me-5" (click)="preItem()">previos</button>
+      <button [disabled]="id > productLenght" class="btn btn-primary" (click)="nextItem()">Next</button>
+    </div>
+  </div>
+  <div class="text-center w-100" *ngIf="loading">
+    <app-sppiner></app-sppiner>
+  </div>
+</div>
